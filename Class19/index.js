@@ -32,7 +32,7 @@ client.on("interactionCreate", async (interaction) => {
   if (!interaction.isChatInputCommand()) return;
 
   if (interaction.commandName === "whoareyou") {
-    await interaction.reply("Success!");
+    await interaction.reply("You can call me Big Daddy!");
   }
 });
 
